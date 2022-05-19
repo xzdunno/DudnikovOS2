@@ -28,7 +28,7 @@ println("Поток $threadNum завершил выполнение за ${time
     }
 }
 fun main(){
-    println("Введите Хэш")
+    println("Введите хэш")
     hash= readLine().toString()
     println("Введите количество потоков")
     val countThreads= readLine().toString().toInt()
